@@ -294,7 +294,7 @@ void setup(void) {
   display.begin();            // initializes the display
   display.setBacklight(50);  // set the brightness to 50 %
   while (ow_device[0] != 0x41) {
-    Serial.println("Suche nach angeschlossenem IButton Data Logger...");
+    Serial.println("Searching for IButton Data Logger...");
     display.print("IBUT");
     SearchOneWireDevices();  //Search for attached 1-wire devices
     Serial.println(attached_devices);
@@ -302,7 +302,7 @@ void setup(void) {
     delay(1000);
   }
   display.print("READ");
-  Serial.println("IButton Data Logger gefunden:");
+  Serial.println("IButton Data Logger found:");
   Serial.println("wait 2 sec....");
   delay(2000);
 
