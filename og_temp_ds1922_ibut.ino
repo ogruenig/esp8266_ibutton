@@ -1,5 +1,5 @@
 /*   OneWire Ibutton data logger reader
-     by Olaf Gruenig
+     by O. Gruenig
      Based on work by Jeff Miller   http://arduinofun.blogspot.com/
      Released under GPLv3 http://www.gnu.org/copyleft/gpl.html
 */
